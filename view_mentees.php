@@ -437,19 +437,7 @@ $result = $stmt->get_result();
                                     min="1" max="365" required placeholder="Number of days">
                             </div>
                         </div>
-                        <div class="mb-4">
-                            <div class="payment-section">
-                                <label for="amount" class="form-label">
-                                    <i class="fas fa-money-bill"></i> Payment Amount (₹)
-                                </label>
-                                <div class="input-group">
-                                    <span class="input-group-text">₹</span>
-                                    <input type="number" class="form-control" id="amount" name="amount" 
-                                        min="0" step="100" required placeholder="Enter amount">
-                                </div>
-                                <small class="text-muted">* Payment details will be shared after request approval</small>
-                            </div>
-                        </div>
+                       
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary modal-btn" data-bs-dismiss="modal">
